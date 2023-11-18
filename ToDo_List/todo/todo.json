@@ -1,0 +1,44 @@
+{
+  "todo": [
+    {
+      "name": "python project",
+      "task": [
+        {
+          "description": "make a robot",
+          "due": null,
+          "status": "Selesai"
+        },
+        {
+          "description": "eat",
+          "due": null,
+          "status": "Tertunda"
+        }
+      ]
+    },
+    {
+      "name": "Makan Malam",
+      "task": []
+    },
+    {
+      "name": "Belajar python",
+      "task": [
+        {
+          "description": "belajar tipe data",
+          "due": null,
+          "status": "Selesai"
+        },
+        {
+          "description": "belajar function",
+          "due": null,
+          "status": "Tertunda"
+        },
+        {
+          "description": "belajar looping",
+          "due": null,
+          "status": "Tertunda"
+        }
+
+      ]
+    }
+  ]
+}
