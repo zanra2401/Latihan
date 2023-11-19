@@ -11,13 +11,9 @@
         {
           "description": "eat",
           "due": null,
-          "status": "Tertunda"
+          "status": "Selesai"
         }
       ]
-    },
-    {
-      "name": "Makan Malam",
-      "task": []
     },
     {
       "name": "Belajar python",
@@ -35,9 +31,8 @@
         {
           "description": "belajar looping",
           "due": null,
-          "status": "Tertunda"
+          "status": "Selesai"
         }
-
       ]
     }
   ]

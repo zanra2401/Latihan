@@ -78,6 +78,16 @@ def check(nama):
 
     return None
 
+def checkTask(task):
+    data = read()
+    index = 0
+    for i in data[check(openedToDo)]["task"]:
+        if i["description"] == task:
+            return index, check(openedToDo)
+        index += 1
+
+    return None
+
 def openToDo(nama):
     if check(nama) == None:
         print(f"ToDo list bernama {nama} tidak ada")
@@ -106,6 +116,22 @@ def viewTask(index):
         no += 1
     print()
 
-def doneTask(task):
+def taskAction(task, status):
     data = read()
+
+    ta,to = checkTask(task)
+    
+    data[to]["task"][ta]["status"] = status
+
+    data = { "todo": data }
+
+    write(data)
+
+    viewTask(check(openedToDo))
+
+
+
+
+
+
 
